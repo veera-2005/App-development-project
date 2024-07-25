@@ -1,0 +1,78 @@
+/* Login.css */
+
+.all {
+  display: flex;
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+.image {
+  flex: 1;
+  background-image: url('C:\Users\veera\Desktop\advance app development\my-app\src\Assets\table-setting-with-focus-goblets-plates.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 10px 10px 0;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto 0;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.login-form .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.last {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.last:hover {
+  color: darkblue;
+}
