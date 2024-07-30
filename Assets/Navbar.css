@@ -1,0 +1,132 @@
+/* Navbar.css */
+
+.high {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px;
+    align-items: end  ;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    justify-content: right;
+    
+}
+
+.button {
+    animation: fadeIn 1s ease-in-out;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /* align-items: end; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    margin-bottom: 49px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 0px solid #4CAF50;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.logo {
+    font-size: 54px;
+    color: white;
+    margin-right: 470px;
+    margin-top: 0px;
+    font-size: 67px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.footer-container {
+    background-color: #1a0033;
+    color: white;
+    padding: 40px 20px;
+    padding-left: 160px;
+    padding-top: 20px;
+
+  }
+  
+  .footer-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 5%;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #9fa1a7;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #9fa1a7;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom a {
+    color: #9fa1a7;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }

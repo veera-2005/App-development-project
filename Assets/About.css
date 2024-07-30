@@ -1,0 +1,306 @@
+/* About.css */
+.fullabout{
+  animation: slideIn 2s ease-in-out;
+}
+.message-container {
+  text-align: center;
+  padding: 20px;
+  background-color: ghostwhite;
+  margin-top: -30px;
+  width: 100%;
+  margin-left:-20px ;
+}
+.message-container:hover {
+  text-align: center;
+  padding: 20px;
+  background-color: lightblue;
+  animation: fadeIn 1s ease-in-out;
+  /* color: green; */
+}
+
+.message-container h1 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2e8b57;
+  animation: slideIn 2s ease-in-out;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.message-container h1:hover {
+  font-size: 46px;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  color: #2e8b57;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message-container .divider {
+  width: 50px;
+  border: 2px solid #2e8b57;
+  margin: 20px auto;
+  animation: slideIn 2s ease-in-out;
+}
+
+.message-container p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 800px;
+  color: green;
+  font-size: 18px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* animation: slideIn 1s ease-in-out; */
+}
+/* .about1-container:hover {
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: lightblue;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+} */
+
+.about1-image {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 1;
+  padding-right: 20px;
+  animation: slideIn 1s ease-in-out;
+  /* border:1px solid black; */
+  width: 300px;
+  height: 500px;
+  background-image: url("C:\Users\veera\Desktop\advance app development\my-app\src\Assets\_ad92e5a9-e94d-4c37-8082-18df39fab34fabout3.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.about1-image img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-image img:hover {
+  transform: scale(1.05);
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 2;
+  padding-left: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2e8b57;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-content h2 {
+  font-size: 24px;
+  color: #6b8e23;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about1-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about2-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* animation: slideIn 1s ease-in-out; */
+}
+/* .about2-container:hover {
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: lightblue;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+} */
+
+.about2-image {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 1;
+  padding-right: 20px;
+  animation: slideIn 1s ease-in-out;
+  /* border:1px solid black; */
+  width: 300px;
+  height: 500px;
+  background-image: url("C:\Users\veera\Desktop\advance app development\my-app\src\Assets\_35afe23f-4b53-4b43-8bcd-643882237786 about.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.about2-image img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about2-image img:hover {
+  transform: scale(1.05);
+  animation: slideIn 1s ease-in-out;
+}
+
+.about2-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 2;
+  padding-left: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about2-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2e8b57;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about2-content h2 {
+  font-size: 24px;
+  color: #6b8e23;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about2-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.about3-container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* animation: slideIn 1s ease-in-out; */
+}
+/* .about3-container:hover {
+  animation: fadeIn 1s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: lightblue;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  animation: fadeIn 1s ease-in-out;
+} */
+
+.about3-image {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 1;
+  padding-right: 20px;
+  animation: slideIn 1s ease-in-out;
+  /* border:1px solid black; */
+  width: 300px;
+  height: 500px;
+  background-image: url("C:\Users\veera\Desktop\advance app development\my-app\src\Assets\_a2d56b96-419d-495e-8139-e787281fc949about2.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+.about3-image img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about3-image img:hover {
+  transform: scale(1.05);
+  animation: slideIn 1s ease-in-out;
+}
+
+.about3-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex: 2;
+  padding-left: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about3-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2e8b57;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about3-content h2 {
+  font-size: 24px;
+  color: #6b8e23;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out;
+}
+
+.about3-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
