@@ -1,0 +1,53 @@
+/* Container styles */
+.user-management-container,
+.event-management-container {
+    padding: 20px;
+}
+
+/* User table styles */
+.user-table,
+.event-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.user-table th, .user-table td,
+.event-table th, .event-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.user-table th, .event-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.user-table tr:nth-child(even), .event-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-table tr:hover, .event-table tr:hover {
+    background-color: #ddd;
+}
+
+.user-table th, .event-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Button styles */
+.manage_button {
+    padding: 8px 16px;
+    margin-right: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

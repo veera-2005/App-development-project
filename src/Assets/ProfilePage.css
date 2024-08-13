@@ -1,0 +1,201 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f2f4f8;
+    animation: fadeIn 1s ease-in;
+    animation: slideIn 1s ease-in-out;
+}
+
+.profile-card {
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    transform: scale(0.9);
+    animation: scaleIn 1s ease-in-out forwards;
+}
+
+.profile-title {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-in;
+
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    animation: bounceIn 1s ease-in-out;
+
+}
+
+.profile-info {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: left;
+    animation: fadeIn 1s ease-in;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 18px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    animation: slideIn 1s ease-in-out;
+}
+
+.edit-button {
+    background: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    animation: slideIn 1s ease-in-out;
+}
+
+.edit-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.profile-details {
+    text-align: left;
+    margin: 20px 0;
+    animation: fadeIn 1s ease-in;
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+
+.profile-edit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profile-edit h2 {
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+.profile-edit input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    animation: slideIn 1s ease-in-out;
+}
+
+.profile-edit input:focus {
+    border-color: #007bff;
+}
+
+.profile-edit button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    animation: slideIn 1s ease-in-out;
+}
+
+.profile-edit button:hover {
+    background: #0056cc;
+    transform: scale(1.05);
+}
+.save-button{
+    background: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    animation: slideIn 1s ease-in-out;
+    
+}
+
+.save-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+    background: #c82333;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}

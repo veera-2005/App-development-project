@@ -1,0 +1,106 @@
+/* Login.css */
+
+.all {
+  display: flex;
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+.image {
+  flex: 1;
+  background-image: url('C:\Users\veera\Desktop\advance app development\my-app\src\Assets\quintana-homepage.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 10px 10px 0;
+  animation: slideIn 2s ease-in-out;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto 0;
+  animation: float 5s ease-in-out infinite;
+  animation: slideIn 2s ease-in-out;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.login-form .form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+  animation: slideIn 2s ease-in-out;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  animation: slideIn 2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  animation: slideIn 2s ease-in-out;
+}
+
+h4 {
+  animation: slideIn 2s ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.last {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  animation: slideIn 1s ease-in-out;
+}
+
+.last:hover {
+  color: darkblue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

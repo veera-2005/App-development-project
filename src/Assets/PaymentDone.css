@@ -1,0 +1,26 @@
+.PaymentDoneTotal
+{
+    width: 50%;
+    height: 60vh;
+    border: 1px solid black;
+    font-family: Poppins;
+    margin-left: 25%;
+    margin-top: 20vh;
+    border-radius: 15px;
+    background-color: #f0f8ff;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+.back-to-home{
+    background-color: purple;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+} 

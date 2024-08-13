@@ -1,0 +1,104 @@
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contact-us-form {
+    width: 50%;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-form h1 {
+    font-size: 2em;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-form p {
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-form form {
+    display: flex;
+    flex-direction: column;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: slideIn 1s ease-in-out;
+    margin-left: -10px;
+  }
+  
+  .form-textarea {
+    height: 100px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .form-button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-info {
+    width: 40%;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-info blockquote {
+    font-size: 1.2em;
+    margin: 0;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-info blockquote footer {
+    font-size: 0.8em;
+    text-align: right;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .contact-us-info p {
+    margin: 10px 0;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .social-icons a {
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: none;
+    animation: slideIn 1s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
