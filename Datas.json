@@ -1,0 +1,36 @@
+{
+  "UserData": [
+    {
+      "id": "1",
+      "uname": "veeravignesh",
+      "nemail": "veera@gmail.com",
+      "password": "Veera@123",
+      "Role": "Admin",
+      "gender": "Male",
+      "state": "TamilNadu",
+      "country": "India",
+      "languages": [
+        "english"
+      ]
+    },
+    {
+      "id": "a220",
+      "uname": "siva",
+      "nemail": "siva@gmail.com",
+      "password": "12345",
+      "Role": "Manager",
+      "gender": "Male"
+    },
+    {
+      "id": "eff8",
+      "uname": "kumar",
+      "nemail": "kumar@gmail.com",
+      "password": "12345",
+      "Role": "User",
+      "gender": "Male",
+      "state": "TamilNadu",
+      "country": "India",
+      "languages": "tamil"
+    }
+  ]
+}

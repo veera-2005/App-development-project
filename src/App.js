@@ -52,7 +52,7 @@ const App = () => {
       <Route path="/Event" element={<EventsPage />} />
       <Route path='/Payment' element={<Payment />} />
       <Route path='/PaymentDone' element={<PaymentDone />} />
-      <Route path='/confrim' element={<ConfrimationPage />} />
+      <Route path='/confirm' element={<ConfrimationPage />} />
       <Route path='/Contact' element={<ContactUs />} />
       <Route path='/Request' element={<RequestPage />} />
     </Routes>
